@@ -17,8 +17,6 @@ defmodule Trebuchet do
     first_digit = List.first(digits)
     last_digit = List.last(digits)
 
-    # IO.puts(first_digit <> last_digit)
-
     String.to_integer(first_digit <> last_digit)
   end
 
@@ -27,7 +25,6 @@ defmodule Trebuchet do
       {_, _} -> [c | acc]
       :error -> acc
     end
-    # |> IO.inspect()
   end
 end
 
